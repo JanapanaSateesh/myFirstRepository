@@ -14,4 +14,15 @@
       </class> <!-- com.testcases.TC_1_TextBox -->
     </classes>
   </test> <!-- TextBox Module(failed) -->
+  <test thread-count="5" name="Widgets Module(failed)">
+    <classes>
+      <class name="com.testcases.TC_4_Widgets">
+        <methods>
+          <include name="setUp"/>
+          <include name="widgets"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testcases.TC_4_Widgets -->
+    </classes>
+  </test> <!-- Widgets Module(failed) -->
 </suite> <!-- Failed suite [Regression Suite] -->

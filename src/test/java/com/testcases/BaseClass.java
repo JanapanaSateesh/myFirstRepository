@@ -49,7 +49,7 @@ public class BaseClass {
 	
 	@AfterMethod(groups= {"Smoke"})
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 	
 
